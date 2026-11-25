@@ -28,8 +28,8 @@ def einkaufsliste_anzeigen(liste):
             
 def random_choice(liste):
     if liste: 
-        Element = random.choice(liste)
-        print(f"Das ist ein random Element aus dem Korb, {Element}")
+        element = random.choice(liste)
+        print(f"Das ist ein random Element aus dem Korb, {element}")
     else:  print("Es ist noch nichts enthalten")
 def mischen(liste): 
     if liste: 
